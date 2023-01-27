@@ -1,0 +1,40 @@
+// write a class for Car such that the main method works
+public class Car {
+
+	// put car properties here - make, model, color, type
+   private String make;
+   private String model;
+   private String color;
+   private String type;
+	
+	// put a constructor for Car here
+   public Car (String make, String model, String color, String type) {
+      this.make = make;
+      this.model = model;
+      this.color = color;
+      this.type = type;
+   }
+	
+	// put getter accessor methods here
+   public String getMake() { 
+      return make; 
+   }
+    public String getModel() { 
+      return model; 
+   }
+    public String getColor() { 
+      return color; 
+   }
+    public String getType() { 
+      return type; 
+   }
+	
+	public static void main(String[] args) {
+		Car mustang = new Car("Ford", "Mustang", "Red", "Sports car");
+		Car miata   = new Car("Mazda", "Miata", "Dark Green", "Convertible");
+		
+		System.out.println(mustang.getColor());
+		System.out.println(miata.getMake());
+		System.out.println(mustang.getType());
+	}
+}
