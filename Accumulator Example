@@ -1,0 +1,10 @@
+public class Accumulator {
+   public static void main(String[] args){
+   int sum = 0; //sum is my accumulator variable
+   for (int c = 1; c < 13; c++){
+       sum = sum + c;
+   }
+   System.out.println("The sum of the numbers from 1 to 12 is " + sum);
+  }
+}
+
