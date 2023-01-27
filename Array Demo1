@@ -1,9 +1,0 @@
-class ArrayDemo {
-   public static void main(String[] args) {
-     String[] team = new String[3];
-     team[0] = "Jasper";
-     team[1] = "James";
-     team[2] = "John";
-     System.out.println(team[2]);
-   }
-}
