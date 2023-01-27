@@ -1,0 +1,7 @@
+class ArrayDemo3 {
+   public static void main(String[] args) {
+     String[] team = {"Jasper", "John", "James"};
+     int i = 1;
+     System.out.println(team[i]);
+   }
+}
